@@ -19,4 +19,4 @@ so I built this to filter, "only lines with specific keywords" that I want to ch
 
 
 # Limitation
-it works only on the windows environment, with dotnetFramework 4.0 and above installed
+it runs only on the windows environment, with dotnetFramework 4.0 and above installed
