@@ -1,22 +1,28 @@
-# logSearch
-it looks up the keyword and shows the lines containing the keyword in the user specified file. txt, .log etc
+[한국어](./README.ko.md)
 
-# why?
-I have to check log files from numbers of servers for specific activities.. 
-so I built this to filter, "only lines with specific keywords" that I want to check
+## Source Code
+* [FrmLogFilter.cs](./FrmLogFilter.cs)
+* [core/FileUtils.cs](./core/FileUtils.cs)
+* [Program.cs](./Program.cs)
 
+---
 
-![image](https://github.com/user-attachments/assets/5877dcb0-0f80-4774-aace-8a6f955009e3)
+## English
 
-# how it works
-1. drag & drop a text file.
-2. or, Press "Log File" to open up the dialogbox to find a file.
-3. type in a keyword to Search. By default, it has "error" in it
-4. Press "Search" Button
-5. It displays lines of search results in the textbox
-6. as well as, it will drop a file, with the name and location shown in "Save Location"
-7. Press "Open File" button if you want to check the saved file.
+### Log Filter
 
+A Windows Forms application that extracts lines containing a specific keyword from a given log file (.txt, .log) and saves them to a new file.
 
-# Limitation
-it runs only on the windows environment, with dotnetFramework 4.0 and above installed
+### Features
+- **File Selection**: Specify a log file using the 'Find File' button or by drag-and-drop.
+- **Keyword Search**: Filter logs by entering a desired search term. (Default: "error")
+- **Display Results**: Shows the filtered results in a list box on the screen.
+- **Save to File**: Saves the results to a separate text file. (Format: `original_filename-yyyyMMdd-filttered.txt`)
+- **Open Result**: Allows you to open the saved result file directly with a button click.
+
+### How to Use
+1. Select a log file by clicking the `Find File` button or by dragging and dropping it onto the window.
+2. Enter the keyword you want to search for. (The default is "error".)
+3. Click the `Search` button to start the filtering process.
+4. The results are displayed on the screen and saved to a file at the specified path.
+5. You can check the saved file immediately by clicking the `Open Result File` button.
