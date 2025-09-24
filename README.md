@@ -1,12 +1,5 @@
 [한국어](./README.ko.md)
 
-## Source Code
-* [FrmLogFilter.cs](./FrmLogFilter.cs)
-* [core/FileUtils.cs](./core/FileUtils.cs)
-* [Program.cs](./Program.cs)
-
----
-
 ## English
 
 ### Log Filter
